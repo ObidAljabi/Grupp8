@@ -1,4 +1,24 @@
-// Console app.
+//
+//  ContentView.swift
+//  Lifemotif
+//
+//  Created by Theodor Christensen on 2024-02-20.
+//
 
-print("Hello, Worldsssss!")
-print("Hello")
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        VStack {
+            Image(systemName: "globe")
+                .imageScale(.large)
+                .foregroundStyle(.tint)
+            Text("Hello, universe!")
+        }
+        .padding()
+    }
+}
+
+#Preview {
+    ContentView()
+}
